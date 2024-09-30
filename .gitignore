@@ -1,0 +1,51 @@
+# Compiled output
+/target/
+
+# Build scripts
+**/Cargo.lock
+
+# Output of `cargo test` with --doctest
+*.rs.bk
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.so
+
+# Ignore executable binaries and object files
+*.o
+*.rlib
+
+# Logs
+*.log
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+
+# Mac specific files
+.DS_Store
+
+# Linux specific files
+*~
+
+# By default, Rust/Cargo creates the following directory if you use a workspace.
+# Ignore that folder as well
+**/Cargo.lock
+
+# Rustfmt generated files
+**/*.rs.bk
+
+# Rust Analyzer files
+/.rust-analyzer.json
+
+# Caches (optional)
+.cargo/
